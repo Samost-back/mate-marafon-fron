@@ -20,9 +20,19 @@
     src: url('../fonts/inter-v20-latin-800italic.woff2') format('woff2');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Inter", sans-serif;
+    color: #292929;
     margin: 0;
+}
+
+main {
+    padding: 120px;
+    background-color: #fff;
 }
 
 h1 {
@@ -130,23 +140,20 @@ header {
 }
 
 .section-products {
-    margin: 120px;
+    margin-bottom: 120px;
 }
 
 .product-title {
     font-weight: 700;
     font-size: 16px;
     line-height: 140%;
-    letter-spacing: 0px;
     margin: 0;
     margin-top: 32px;
 }
 
 .product-description {
-    font-weight: 400;
     font-size: 16px;
     line-height: 140%;
-    letter-spacing: 0px;
     margin: 0;
     margin-top: 8px;
 }
@@ -155,12 +162,71 @@ header {
     font-weight: 700;
     font-size: 16px;
     line-height: 140%;
-    letter-spacing: 0px;
     margin: 0;
     margin-top: 12px;
 }
 
+.photos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo-wide {
+    width: 66%;
+}
+
+.photo-square {
+    width: 32%;
+}
+
+.category {
+    margin-top: 64px;
+}
+
+.category-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    margin: 0;
+    margin-top: 16px;
+}
+
+.benefits-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1.5px;
+}
+
+.benefits {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 120px;
+}
+
+.benefits-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+}
+
+.benefits-description {
+    margin: 0;
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 27px;
+}
+
 footer {
+    position: sticky;
+    bottom: 0;
+    z-index: -1;
     height: 460px;
     background-image: url(images/footer.png);
     background-size: cover;
