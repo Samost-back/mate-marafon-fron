@@ -138,14 +138,17 @@ header {
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0px;
+    margin: 0;
+    margin-top: 32px;
 }
 
 .product-description {
     font-weight: 400;
-    font-style: Regular;
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0px;
+    margin: 0;
+    margin-top: 8px;
 }
 
 .product-price {
@@ -153,6 +156,8 @@ header {
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0px;
+    margin: 0;
+    margin-top: 12px;
 }
 
 footer {
