@@ -292,12 +292,12 @@ nav {
 }
 
 .photo-wide {
-    width: 48%;
+    width: 47%;
     object-fit: cover;
 }
 
 .photo-square {
-    width: 48%;
+    width: 47%;
 }
 
 @media (width >=720px) {
